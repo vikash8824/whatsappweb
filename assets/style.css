@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+section.bgcolor {
+    background: #007E69;
+    padding-top: 12px;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    position: sticky;
+    top: -40px;
+    z-index: 100;
+}
+span.icon {
+    float: right;
+}
+.seconddiv {
+    padding: 15px 0 7px;
+    display: table;
+    width: 100%;
+}
+.camera {
+    width: fit-content;
+    float: left;
+    padding-right: 10px;
+}
+.menu {
+    float: left;
+    width: auto;
+}
+a.btnpage {
+    color: #dedede;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 21px;
+}
+a.btnpage:hover {
+    color: #fff;
+    text-decoration: none;
+}
+span.newm {
+    background: #fff;
+    color: #007e69;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0px 7px;
+}
+.active {
+    color: #fff !important;
+    border-bottom: 3px solid;
+}
+.newid {
+    padding: 15px 0 10px;
+}
+img.iconimg {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 18px;
+    height: 50px;
+}
+.img {
+    width: fit-content;
+    float: left;
+}
+.name {
+    font-weight: 600;
+}
+span.new {
+    color: #25d366;
+}
+span.time {
+    float: right;
+    font-size: 13px;
+    padding-top: 2px;
+}
+.sendid {
+    font-size: 14px;
+    color: #6b6666;
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+span.count {
+    float: right;
+    background: #25d366;
+    border-radius: 50%;
+    width: 21px;
+    color: #fff;
+    text-align: center;
+}
+.double {
+    color: #53bdeb;
+}
+.mic {
+    color: #25d366;
+}
+span.newuser {
+    background: #007e69;
+    color: #fff;
+    padding: 14px 18px;
+    border-radius: 50%;
+    top: auto;
+    bottom: 26px;
+    position: fixed;
+    z-index: 9999;
+    right: 20px;
+}
+.circle {
+    color: #f00;
+}
