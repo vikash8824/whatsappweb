@@ -47,6 +47,10 @@ span.newm {
     border-radius: 50%;
     padding: 0px 7px;
 }
+.countstatus{
+  border: 2px dotted #ddd;
+    padding: 1px;
+}
 .active {
     color: #fff !important;
     border-bottom: 3px solid;
