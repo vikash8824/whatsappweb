@@ -96,17 +96,53 @@ span.count {
 .mic {
     color: #25d366;
 }
-span.newuser {
+.newuser {
     background: #007e69;
     color: #fff;
-    padding: 14px 18px;
+    padding: 10px 15px;
     border-radius: 50%;
     top: auto;
     bottom: 26px;
     position: fixed;
     z-index: 9999;
-    right: 20px;
+    right: 25px;
+}
+.newtext {
+    background: #e0e0e0;
+    color: #434343;
+    padding: 10px 15px;
+    border-radius: 50%;
+    top: auto;
+    bottom: 80px;
+    position: fixed;
+    z-index: 9999;
+    right: 25px;
 }
 .circle {
-    color: #f00; 
+    color: #f00;
+}
+span.viewed {
+    font-weight: 500;
+    color: #717171;
+}
+span.addstatus {
+    position: absolute;
+    background: #007e69;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0px 5px;
+    margin: 27px;
+    border: 2px solid #fff;
+}
+span.videocall {
+    color: #007e69;
+    float: right;
+    padding-top: 5px;
+    font-size: 17px;
+}
+span.send {
+    color: #007e69;
+}
+span.rsend {
+    color: #f00;
 }
