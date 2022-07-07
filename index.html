@@ -38,9 +38,22 @@
 
     <section>
       <div class="container">
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <span class="uid">Family Member</span>
+                    <div class="modal-body">
+                        <img id="image" src="assets/image/01.jpg" alt="Click on button" />
+                        <!-- hr@ezulis.com -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="newid">
           <div class="img">
-            <img class="iconimg" src="assets/image/01.jpg" alt="">
+            <img class="iconimg"  data-toggle="modal" data-target="#exampleModal" src="assets/image/01.jpg" alt="">
           </div>
           <div class="idname">
             <div class="">
