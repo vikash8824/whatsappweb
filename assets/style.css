@@ -210,7 +210,7 @@ span.idicon {
     background: url(./image/16.jpeg);
     height: 100%;
     padding-bottom: 30px;
-    min-height: 650px;
+    min-height: 600px;
     background-repeat: round;
     background-attachment: fixed;
 }
