@@ -177,7 +177,7 @@ a.aid:hover {
     color: #000;
 }
 .usid {
-    padding-bottom: 10px;
+    padding-bottom: 16px;
     padding-top: 12px;
 }
 section.bcolor {
@@ -199,7 +199,7 @@ a.goback:hover {
     color: #fff;
 }
 .iduser {
-    font-size: 14px;
+    font-size: 10px;
 }
 span.idicon {
     float: right;
@@ -232,4 +232,7 @@ span.idicon {
 input.boxmess {
     border: none;
     width: 160px;
+}
+input.boxmess:focus {
+    outline: none;
 }
