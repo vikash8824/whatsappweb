@@ -207,7 +207,9 @@ span.idicon {
 }
 .messbg {
     background: linear-gradient(#b1c8ff, #00ffd5);
-    height: 601px;
+    height: 100%;
+    padding-bottom: 30px;
+    min-height: 650px;
 }
 .messbox {
     width: fit-content;
