@@ -160,14 +160,22 @@ span.rsend {
     margin-top: 25% !important;
 }
 .modelimg{
-    border-radius: 10px !important;
+    border-radius: 0px !important;
     overflow: hidden;
+}
+img#image {
+    width: 354px;
+}
+.modal-body {
+    padding: 0 !important;
 }
 span.uid {
     width: 100%;
-    background: #ddd;
-    padding: 0px 14px 0px 16px;
-    color: #003f35;
+    background: #dddddd52;
+    padding: 10px 14px 11px 16px;
+    color: #ffffff;
+    position: fixed;
+    z-index: 9999;
 }
 a.aid {
     color: #000;
