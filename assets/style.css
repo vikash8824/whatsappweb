@@ -247,7 +247,7 @@ input.boxmess:focus {
 }
 .chatmess {
     background: #d1f4cc;
-    width: 100%;
+    width: 70%;
     padding: 0px 13px;
     border-radius: 8px 0 8px 8px;
     float: right;
