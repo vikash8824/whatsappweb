@@ -88,6 +88,9 @@ span.time {
     overflow: hidden !important;
     text-overflow: ellipsis;
 }
+.newid:hover {
+    background: #f3f3f3;
+}
 span.count {
     float: right;
     background: #25d366;
@@ -154,11 +157,79 @@ span.rsend {
 }
 .modal-dialog {
     width: fit-content !important;
-    margin: 30% !important;
+    margin-top: 25% !important;
+}
+.modelimg{
+    border-radius: 10px !important;
+    overflow: hidden;
 }
 span.uid {
     width: 100%;
     background: #ddd;
     padding: 0px 14px 0px 16px;
     color: #003f35;
+}
+a.aid {
+    color: #000;
+}
+a.aid:hover {
+    text-decoration: none;
+    color: #000;
+}
+.usid {
+    padding-bottom: 10px;
+    padding-top: 12px;
+}
+section.bcolor {
+    background: #007E69;
+    color: #fff;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+a.goback {
+    color: #fff;
+}
+a.goback:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.titleid {
+    color: #fff;
+}
+.iduser {
+    font-size: 14px;
+}
+span.idicon {
+    float: right;
+    padding-top: 10px;
+}
+.messbg {
+    background: linear-gradient(#b1c8ff, #00ffd5);
+    height: 601px;
+}
+.messbox {
+    width: fit-content;
+    background: #fff;
+    padding: 10px;
+    color: #b2b2b2;
+    border-radius: 25px;
+    float: left;
+}
+.micro {
+    float: right;
+    background: #007e69;
+    color: #fff;
+    padding: 11px 16px;
+    border-radius: 50%;
+}
+.mess {
+    position: fixed;
+    top: auto;
+    bottom: 13px;
+}
+input.boxmess {
+    border: none;
+    width: 160px;
 }
