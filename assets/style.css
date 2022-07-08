@@ -232,7 +232,11 @@ span.idicon {
 .mess {
     position: fixed;
     top: auto;
-    bottom: 13px;
+    bottom: 0;
+    background: #e0d7d0;
+    padding: 5px;
+    width: 100%;
+    margin-left: -16px;
 }
 input.boxmess {
     border: none;
@@ -264,4 +268,10 @@ span.sidesend {
     height: 13px;
     right: -10px;
     color: #d1f4cc;
+}
+.sendm1 {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 20px;
 }
