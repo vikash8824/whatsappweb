@@ -291,3 +291,6 @@ button.sendbtn {
     background: none;
     color: #fff;
 }
+button.sendbtn:focus {
+    outline: none;
+}
