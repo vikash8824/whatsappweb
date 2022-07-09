@@ -271,7 +271,7 @@ span.sendtime {
 }
 span.sidesend {
     position: absolute;
-    z-index: 9;
+    z-index: 0;
     display: block;
     width: 10px;
     height: 13px;
