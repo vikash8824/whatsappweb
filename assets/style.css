@@ -292,6 +292,10 @@ span.sidesend {
     overflow-x: hidden;
     padding-bottom: 70px;
 }
+
+.sendm1::-webkit-scrollbar {
+    display: none;
+}
 button.sendbtn {
     border: 0;
     background: none;
