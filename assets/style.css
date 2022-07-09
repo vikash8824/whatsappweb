@@ -282,9 +282,13 @@ span.sidesend {
 }
 .sendm1 {
     position: absolute;
-    top: auto;
-    bottom: 70px;
+    top: 60px;
+    /* bottom: 0px; */
     right: 20px;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-bottom: 70px;
 }
 button.sendbtn {
     border: 0;
