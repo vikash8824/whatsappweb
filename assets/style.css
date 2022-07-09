@@ -231,11 +231,12 @@ span.idicon {
     float: left;
 }
 .micro {
-    float: right;
+    float: left;
     background: #007e69;
     color: #fff;
     padding: 11px 16px;
     border-radius: 50%;
+    margin-left: 10px;
 }
 .mess {
     position: fixed;
