@@ -221,7 +221,6 @@ span.idicon {
     min-height: 635px;
     background-repeat: round;
     background-attachment: fixed;
-    
 }
 .messbox {
     width: fit-content;
@@ -292,15 +291,29 @@ span.sidesend {
     overflow-x: hidden;
     padding-bottom: 70px;
 }
-
 .sendm1::-webkit-scrollbar {
     display: none;
 }
-button.sendbtn {
+.sendbtn {
     border: 0;
     background: none;
     color: #fff;
 }
-button.sendbtn:focus {
+.sendbtn:focus {
     outline: none;
+}
+.container-tight {
+    width: 100%;
+    padding-right: var(--tblr-gutter-x,1.5rem);
+    padding-left: var(--tblr-gutter-x,1.5rem);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 30rem;
+}
+.card-title {
+    display: block;
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
 }
